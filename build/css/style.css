@@ -1474,9 +1474,9 @@ video {
     border-style: solid;
   }
 
-  .lg\:border-red-500 {
+  .lg\:border-purple-500 {
     --tw-border-opacity: 1;
-    border-color: rgb(239 68 68 / var(--tw-border-opacity));
+    border-color: rgb(168 85 247 / var(--tw-border-opacity));
   }
 }
 
