@@ -696,14 +696,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -986,6 +978,11 @@ video {
 .bg-purple-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
+.bg-purple-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 7 100 / var(--tw-bg-opacity));
 }
 
 .bg-white {
