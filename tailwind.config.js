@@ -7,6 +7,12 @@ module.exports = {
         Geologica: "'Geologica',serif",
         Pacifico: "'Pacifico', serif ",
       },
+      height: {
+        194: '12.125rem',
+      },
+      width: {
+        304: '19rem',
+      },
     },
   },
   plugins: [],
