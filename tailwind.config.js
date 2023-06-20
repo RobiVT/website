@@ -8,10 +8,10 @@ module.exports = {
         Pacifico: "'Pacifico', serif ",
       },
       height: {
-        194: '12.125rem',
+        100: "6.25rem",
       },
       width: {
-        304: '19rem',
+        100: "6.25rem",
       },
     },
   },
