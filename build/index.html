@@ -1,433 +1,627 @@
 <!DOCTYPE html>
 <html lang="en" class="sm:scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website recreactional
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Pacifico&display=swap" rel="stylesheet">
-  </head>
 
-  <body class="min-h-screen">
-    <header class="mx-auto">
-      <nav class="bg-white fixed min-w-full z-20 top-0 left-0">
-        <div
-          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6"
-        >
-          <a href="#" class="flex items-center text-xl">&#9776;</a>
-          <div class="flex md:order-2">
-            <div class="flex items-center"></div>
-            <div class="flex flex-row space-x-6">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                  />
-                </svg>
-              </div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-          >
-            <span class="self-center text-5xl font-semibold pt-2 font-Pacifico"
-              >Paper</span
-            >
-          </div>
-        </div>
-      </nav>
-      <div class="container px-10 py-44 mx-auto">
-        <div class="text-center mb-22">
-          <h2 class="sm:text-5xl text-4xl font-Geologica  text-gray-900 mb-10 ">Smart Website Builder</h2>
-          <p class="font-semibold xl:w-2/4 lg:w-2/3 mx-auto  text-center pr-6  text-gray-500s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aliquid doloribus vel accusamus tempora modi ut officiis ea reprehenderit.</p>
-          <div class="mx-auto flex flex-wrap justify-center gap-5 px-8 py-20">
-            <div class="pr-10 ">
-              <svg class=" w-100 h-100  " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
-                <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-3 17v-10l9 5.146-9 4.854z" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website recreactional
+  </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Pacifico&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="min-h-screen">
+  <header class="mx-auto">
+    <!-- old nav -->
+    <nav class="bg-white fixed min-w-full z-20 top-0 left-0">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+        <a href="#" class="flex items-center text-xl">&#9776;</a>
+        <div class="flex md:order-2">
+          <div class="flex items-center"></div>
+          <div class="flex flex-row space-x-6">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
               </svg>
             </div>
-            <div><button type="button" class="border-primary-500 mt-3 h-16 w-48 rounded-lg border bg-purple-900 text-center text-lg font-bold text-white shadow-sm">Get Started</button></div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+            </div>
           </div>
         </div>
-        <div class="container m-auto mt-7  grid sm:grid-cols-6 space-x-5 border-2 bg-indigo-100 max-w-max  py-10 px-10">
-          <img class=" w-auto h-10 self-center " src="https://robivt.github.io/hosted-assets/Nike.png" alt="" />
-          <img class=" w-auto  h-12 self-center " src="https://robivt.github.io/hosted-assets/sony.png" alt="" />
-          <img class="  w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Dropbox.png" alt="" />
-          <img class=" w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Netflix.png" alt="" />
-          <img class="  w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/shopify.png" alt="" />
-          <img class=" w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Huge.png" alt="" />
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+          <span class="self-center text-5xl font-semibold  font-Pacifico">Paper</span>
         </div>
+      </div>
+    </nav>
+    <!-- old nav -->
+    <div class="container px-10 py-56 mx-auto">
+      <div class="text-center mb-22">
+        <h2 class="sm:text-7xl text-4xl font-Geologica  text-gray-900 mb-10 ">Smart Website Builder</h2>
+        <p class="font-semibold xl:w-1/3  lg:w-2/3 mx-auto  text-center pr-6 text-2xl  text-gray-500s">Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Unde aliquid doloribus vel accusamus tempora modi ut officiis ea reprehenderit.
+        </p>
+        <div class="mx-auto flex flex-wrap justify-center gap-5 px-8 py-20">
+          <div class="pr-10 ">
+            <svg class=" w-100 h-100  " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-3 17v-10l9 5.146-9 4.854z" />
+            </svg>
+          </div>
+          <div><button type="button"
+              class="border-primary-500 mt-3 h-16 w-48 rounded border  bg-black  text-center text-xl font-bold text-white shadow-sm">Get
+              Started</button></div>
+        </div>
+      </div>
+      <div class="container m-auto mt-7  grid sm:grid-cols-6 space-x-5 border-2 bg-gray-300 max-w-max  py-10 px-10">
+        <img class=" w-auto h-10 self-center " src="https://robivt.github.io/hosted-assets/Nike.png" alt="" />
+        <img class=" w-auto  h-12 self-center " src="https://robivt.github.io/hosted-assets/sony.png" alt="" />
+        <img class="  w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Dropbox.png" alt="" />
+        <img class=" w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Netflix.png" alt="" />
+        <img class="  w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/shopify.png" alt="" />
+        <img class=" w-auto h-12 self-center " src="https://robivt.github.io/hosted-assets/Huge.png" alt="" />
+      </div>
 
-    </header>
-      <!-- Feature page -->
-      <Feature class="text-black body-font">
-  <div class="container px-5 py-10 mx-auto">
-    <div class="text-center mb-20">
-      <h2 class="text-4xl font-medium font-Geologica  tracking-tight text-gray-900 pb-6">Features</h2>
-    </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full  border-indigo-700 border-2 bg-indigo-100 text-indigo-500">
-          <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-8 h-8" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"/></svg>
-        </div>
-        
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-3xl  font-bold mb-3">Flexible Interface</h2>
-          <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-indigo-500  border-indigo-700 border-2">
-          <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-8 h-8" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"/></svg>
-        </div>
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-3xl  font-bold mb-3">Features & Updates</h2>
-          <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-indigo-500  border-indigo-700 border-2">
-          <svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-8 h-8" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"/></svg>
-        </div>   
-        <div class="flex-grow">
-          <h2 class="text-gray-900 text-3xl  font-bold mb-3">Security</h2>
-          <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>   
-    </div>
-    <button class="flex mx-auto mt-20 text-white bg-purple-900 border-0 py-4 px-8 focus:outline-none  rounded text-xl">Get started</button>
-  </div>
-</Feature>
-  <!-- Portfolio -->
-  <portfolio class=" body-font">
-    <div class="container px-5 pt-20 mx-auto">
+  </header>
+  <!-- Feature page -->
+  <section class="text-black body-font">
+    <div class="container px-5 mx-auto">
       <div class="text-center mb-20">
-        <h2 class="text-4xl font-medium font-Geologica  tracking-tight text-gray-900 pb-6">Portfolio</h2>
+        <h1 class="text-7xl  font-Geologica  tracking-tight text-black pb-6">Features</h1>
       </div>
-    <div class="container  mx-auto">
-      <div class="flex items-center lg:w-3/4 mx-auto  pb-10 mb-10 sm:flex-row flex-col">
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full  border-black border-2 bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-8 h-8" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z" />
+              </svg>
+          </div>
 
-        <div class="sm:w-350 sm:h-260 h-48 w-72 sm:mr-10 inline-flex items-center justify-center  bg-indigo-100 text-indigo-500 flex-shrink-0  border-indigo-700 border-2">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-7 h-8" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"></path></svg>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-3xl  font-bold mb-3">Flexible Interface</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
-        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
-          <h2 class="text-gray-900 text-2xl  font-medium mb-2">Project Name</h2>
-          <p class="leading-relaxed text-base ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         <button class=" mx-auto mt-3 sm:mt-5  text-white bg-purple-900  py-4 px-10 focus:outline-none  rounded text-base">Get started</button>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-black  border-black border-2">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-8 h-8" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z" />
+              </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-3xl  font-bold mb-3">Features & Updates</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="mb-5 inline-flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-black  border-black border-2">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-8 h-8" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z" />
+              </svg>
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-3xl  font-bold mb-3">Security</h2>
+            <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       </div>
-      <div class="flex items-center lg:w-3/4 mx-auto  pb-10 mb-10 sm:flex-row flex-col">
-      <div class=" flex flex-col gap-4 items-center  ">
-        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-          <h2 class="text-gray-900 text-2xl  font-medium mb-2">Project Name</h2>
-          <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button class=" mx-auto mt-3  sm:mt-5  text-white bg-purple-900  py-4 px-10 focus:outline-none  rounded text-base">Get started</button>
+      <button
+        class="flex mx-auto mt-20 text-white bg-black border-0 py-4 px-8 focus:outline-none  rounded text-xl">Get
+        started</button>
+    </div>
+  </section>
+  <!-- Portfolio -->
+  <!-- <section >
+    <div class="container px-5 pt-36  mx-auto">
+      <div class="text-center mb-20">
+        <h2 class="text-7xl font-medium font-Geologica  tracking-tight text-black pb-6">Portfolio</h2>
+      </div>
+      <div class="container mx-auto">
+        <div class="flex items-center lg:w-3/4 mx-auto  pb-10 mb-10 sm:flex-row flex-col">
+
+          <div
+            class="sm:w-52 sm:h-44 h-[32] w-72 sm:mr-10 inline-flex items-center justify-center  bg-indigo-100 text-indigo-500 flex-shrink-0  border-indigo-700 border-2">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-7 h-8" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z">
+              </path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
+            <h2 class="text-gray-900 text-2xl  font-medium mb-2">Project Name</h2>
+            <p class="leading-relaxed text-base ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button
+              class=" mx-auto mt-3 sm:mt-5  text-white bg-purple-900  py-4 px-10 focus:outline-none  rounded text-base">Get
+              started</button>
+          </div>
         </div>
-         
-         </div>
-        <div class=" sm:order-none order-first sm:w-350 sm:h-260 h-48 w-72 sm:ml-10 inline-flex items-center justify-center  bg-indigo-100 text-indigo-500  border-indigo-700 border-2 flex-shrink-0">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-7 h-8" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"></path></svg>
+        <div class="flex items-center lg:w-3/4 mx-auto  pb-10 mb-10 sm:flex-row flex-col">
+          <div class=" flex flex-col gap-4 items-center  ">
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+              <h2 class="text-gray-900 text-2xl  font-medium mb-2">Project Name</h2>
+              <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button
+                class=" mx-auto mt-3  sm:mt-5  text-white bg-purple-900  py-4 px-10 focus:outline-none  rounded text-base">Get
+                started</button>
+            </div>
+
+          </div>
+          <div
+            class=" sm:order-none order-first sm:w-52 sm:h-44 h-48 w-72 sm:ml-10 inline-flex items-center justify-center  bg-indigo-100 text-indigo-500  border-indigo-700 border-2 flex-shrink-0">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-7 h-8" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z">
+              </path>
+            </svg>
+          </div>
         </div>
-      </div>   
-  </div></portfolio>
+      </div>
+  </section> -->
+  <!-- old one -->
+  <!-- new one -->
+   <!-- Portfolio -->
+   <section class="body-font">
+    <div class="container px-5 py-20 mx-auto">
+      <div class="mb-20 text-center">
+        <h2 class="pb-6 text-7xl font-medium tracking-tight text-gray-900 font-Geologica">Portfolio</h2>
+      </div>
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center pb-10 mx-auto mb-10">
+          <img class="order-1 rounded-md border-2 border-black w-full" src="https://dummyimage.com/16:10x400" alt="dummy image">
+          <div class="order-2 px-4 mt-6 text-center sm:mt-0 sm:text-left">
+            <h2 class="mb-4 text-4xl font-medium text-gray-900">Project Name</h2>
+            <p class="text-2xl leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="py-4 px-10 mx-auto mt-3 text-xl font-medium text-white bg-black rounded-md sm:mt-5 focus:outline-none">Learn More</button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center pb-10 mx-auto mb-10">
+          <img class="order-2 rounded-md border-2 border-black w-full" src="https://dummyimage.com/16:10x400" alt="dummy image">
+          <div class="order-1 px-4 mt-6 text-center sm:mt-0 sm:text-left">
+            <h2 class="mb-4 text-4xl font-medium text-gray-900">Project Name</h2>
+            <p class="text-2xl leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="py-4 px-10 mx-auto mt-3 text-xl font-medium text-white bg-black rounded-md sm:mt-5 focus:outline-none">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!-- end of section  -->
   <!-- portfolio -->
   <!-- card start  -->
-  <card>
-  <div class="container mx-auto px-8 py-36">
-    <div class="mb-20 text-center">
-      <h2 class="text-5xl font-medium font-Geologica  tracking-tight text-gray-900 pb-6">Pricing</h2>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      <div class="px-8 py-16 text-center lg:border-r-2 lg:border-solid lg:border-purple-500 ">
-        <span class="inline-block text-3xl font-bold text-black">Basic</span>
-        <h3 class="mb-6 text-lg"><b>$15</b> Per Month</h3>
-        <div class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-indigo-500  border-indigo-700 border-2">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"></path></svg>
-        </div>
-        <ul>
-          <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
-          <li class="mb-3 pb-3 text-base">5GB Storage</li>
-          <li class="mb-3 pb-3 text-base">500 Users</li>
-          <li class="mb-3 pb-3 text-base">15 Domains</li>
-          <li class="mb-3 pb-3 text-base">1 year Support</li>
-        </ul>
-        <a class="mt-5 inline-block rounded-lg bg-purple-900 px-8 py-3 text-white duration-300 hover:bg-purple-300" href="#">Get Started</a>
+  <section>
+    <div class="container mx-auto px-8 py-36">
+      <div class="mb-20 text-center">
+        <h1 class="text-7xl font-medium font-Geologica  tracking-tight text-black pb-6">Pricing</h1>
       </div>
-
-      <div class="px-8 py-16 text-center">
-        <span class="inline-block text-3xl font-bold text-black">Standard</span>
-        <h3 class="mb-6 text-lg"><b>$25</b> Per Month</h3>
-        <ul>
-          <div class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-indigo-500  border-indigo-700 border-2">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"></path></svg>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="px-8 py-2 text-center lg:border-r-2 lg:border-solid lg:border-black ">
+          <span class="inline-block text-3xl font-bold text-black">Basic</span>
+          <h3 class="mb-6 text-lg"><b>$15</b> Per Month</h3>
+          <div
+            class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-black  border-black border-2">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z">
+              </path>
+            </svg>
           </div>
-          <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
-          <li class="mb-3 pb-3 text-base">Unlimited Users</li>
-          <li class="mb-3 pb-3 text-base">20 Domains</li>
-          <li class="mb-3 pb-3 text-base">10GB Storage</li>
-          <li class="mb-3 pb-3 text-base">Lifetime Support</li>
-        </ul>
-        <a class="mt-5 inline-block rounded-lg bg-purple-900 px-8 py-3 text-white duration-300 hover:bg-purple-300" href="#">Get Started</a>
-      </div>
-
-      <div class="px-8 py-16 text-center lg:border-l-2 lg:border-solid lg:border-purple-900">
-        <span class="inline-block text-3xl font-bold text-black">Premium</span>
-        <h3 class="mb-6 text-lg"><b>$35</b> Per Month</h3>
-        <div class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-indigo-500  border-indigo-700 border-2">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="w-10 h-10" viewBox="0 0 24 24"><path d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z"></path></svg>
+          <ul>
+            <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
+            <li class="mb-3 pb-3 text-base">5GB Storage</li>
+            <li class="mb-3 pb-3 text-base">500 Users</li>
+            <li class="mb-3 pb-3 text-base">15 Domains</li>
+            <li class="mb-3 pb-3 text-base">1 year Support</li>
+          </ul>
+          <a class="mt-5 inline-block rounded-lg bg-black px-10 py-3 text-white duration-300 hover:bg-purple-300"
+            href="#">Get Started</a>
         </div>
-        <ul>
-          <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
-          <li class="mb-3 pb-3 text-base">Unlimited Users</li>
-          <li class="mb-3 pb-3 text-base">20 Domains</li>
-          <li class="mb-3 pb-3 text-base">30GB Storage</li>
-          <li class="mb-3 pb-3 text-base">Lifetime Support</li>
-        </ul>
-        <a class="mt-5 inline-block rounded-lg bg-purple-900 px-8 py-3 text-white duration-300 hover:bg-purple-300" href="#">Get Started</a>
+
+        <div class="px-8 py-2 text-center">
+          <span class="inline-block text-3xl font-bold text-black">Standard</span>
+          <h3 class="mb-6 text-lg"><b>$25</b> Per Month</h3>
+          <ul>
+            <div
+              class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-black  border-black border-2">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                class="h-10 w-10" viewBox="0 0 24 24">
+                <path
+                  d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z">
+                </path>
+              </svg>
+            </div>
+            <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
+            <li class="mb-3 pb-3 text-base">Unlimited Users</li>
+            <li class="mb-3 pb-3 text-base">20 Domains</li>
+            <li class="mb-3 pb-3 text-base">10GB Storage</li>
+            <li class="mb-3 pb-3 text-base">Lifetime Support</li>
+          </ul>
+          <a class="mt-5 inline-block rounded-lg bg-black px-10 py-3 text-white duration-300 hover:bg-purple-300"
+            href="#">Get Started</a>
+        </div>
+
+        <div class="px-8 py-2 text-center lg:border-l-2 lg:border-solid lg:border-black">
+          <span class="inline-block text-3xl font-bold text-black">Premium</span>
+          <h3 class="mb-6 text-lg"><b>$35</b> Per Month</h3>
+          <div
+            class="mb-5 inline-flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full bg-gray-200 text-black  border-black border-2">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="w-10 h-10" viewBox="0 0 24 24">
+              <path
+                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-1 16h-19l4-7.492 3 3.048 5.013-7.556 6.987 12zm-11.848-2.865l-2.91-2.956-2.574 4.821h15.593l-5.303-9.108-4.806 7.243zm-4.652-11.135c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5zm0 1c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5z">
+              </path>
+            </svg>
+          </div>
+          <ul>
+            <li class="mb-3 pb-3 text-base">Unlimited Connections</li>
+            <li class="mb-3 pb-3 text-base">Unlimited Users</li>
+            <li class="mb-3 pb-3 text-base">20 Domains</li>
+            <li class="mb-3 pb-3 text-base">30GB Storage</li>
+            <li class="mb-3 pb-3 text-base">Lifetime Support</li>
+          </ul>
+          <a class="mt-5 inline-block rounded-lg bg-black px-10 py-3 text-white duration-300 hover:bg-purple-300"
+            href="#">Get Started</a>
+        </div>
       </div>
     </div>
-  </div>
-</card>
+  </section>
 
   <!-- end of card  -->
   <!-- team of people -->
   <section class="bg-white">
     <div class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16">
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <h2 class="text-6xl font-medium font-Geologica  tracking-tight text-gray-900 pb-6">Team</h2>
-        <p class="font-semibold text-black sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem nemo accusamus, expedita nam autem, facilis</p>
+        <h2 class="text-7xl font-medium font-Geologica  tracking-tight text-black pb-6">Team</h2>
+        <p class="font-semibold text-black sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          quidem nemo accusamus, expedita nam autem, facilis</p>
       </div>
       <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-16">
         <div class="text-center text-gray-500">
-          <div class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
+          <div
+            class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center  rounded-xl border-2 border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
           </div>
-          <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900">
             <a href="#">Brue Hunt</a>
           </h3>
-          <p class="text-purple-900">CEO</p>
+          <p>CEO</p>
         </div>
         <div class="text-center text-gray-500 ">
-           <div class="mb-1 inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
-            <a href="#">Rachal Jone</a>
+          <div
+            class="mb-1 inline-flex h-32 w-32 flex-shrink-0 items-center justify-center  rounded-xl border-2 border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900 ">
+            <a href="#">Rachel Jone</a>
           </h3>
-          <p class="text-purple-900">Designer</p>
+          <p>Designer</p>
         </div>
         <div class="text-center text-gray-900">
-         <div class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class=" text-2xl font-bold tracking-tight text-gray-900">
+          <div
+            class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid rounded-xl border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900">
             <a href="#">Tommy Brown</a>
           </h3>
-          <p class="text-purple-900">Programmer</p>
+          <p>Programmer</p>
         </div>
         <div class="text-center text-gray-900">
-          <div class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+          <div
+            class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2  rounded-xl border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900 ">
             <a href="#">Adelle Hans</a>
           </h3>
-          <p class="text-purple-900">Analyst</p>
+          <p>Analyst</p>
         </div>
         <div class="text-center text-gray-900">
-            <div class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
+          <div
+            class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2  rounded-xl border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900">
             <a href="#">Sofia Mayer</a>
           </h3>
-          <p class="text-purple-900">CEO</p>
+          <p>CEO</p>
         </div>
         <div class="text-center text-gray-900">
-             <div class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 ">
+          <div
+            class=" inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2  rounded-xl border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900 ">
             <a href="#">Markus Smith</a>
           </h3>
-          <p class="text-purple-900">Designer</p>
+          <p>Designer</p>
         </div>
         <div class="text-center text-gray-900">
-            <div class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class=" text-2xl font-bold tracking-tight text-gray-900">
+          <div
+            class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2  rounded-xl border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class=" mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900">
             <a href="#">Jessica Scott
-  </a>
+            </a>
           </h3>
-          <p class="text-purple-900">Programmer</p>
+          <p>Programmer</p>
         </div>
         <div class="text-center text-gray-900">
-             <div class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" /></svg>
-            </div>
-          <h3 class="text-2xl font-bold tracking-tight text-gray-900 ">
+          <div
+            class="inline-flex h-32 w-32 flex-shrink-0 items-center justify-center  rounded-xl border-2 border-solid border-black bg-gray-200 text-black">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z" />
+              </svg>
+          </div>
+          <h3 class="mb-1 pt-4 text-2xl font-bold tracking-tight text-gray-900 ">
             <a href="#">Andrew Sparks</a>
           </h3>
-          <p class="text-purple-900">Analyst</p>
+          <p>Analyst</p>
         </div>
       </div>
     </div>
-  </section> 
+  </section>
   <!-- end of teams -->
   <!-- blog start -->
   <section class="overflow-hidden ">
-  
+
     <div class="container px-5 py-24 mx-auto ">
-      <h2 class="text-6xl pl-2 title-font font-medium font-Geologica tracking-tight text-black pb-6 max-sm:text-center">Blog</h2>
-     <div class="-my-8 divide-y-0 px-5">
-       <div class="py-8 flex flex-wrap justify-center md:flex-nowrap">
-         <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
-          <div class="mb-0 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z"></path></svg>
-                </div>
-         </div>
-         <div class="md:flex-grow ">
-           <h2 class="text-2xl font-medium  mb-2">Believe in you print skills but never stop improving </h2>
-           <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-           <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">  
-           <svg width="24" height="24"  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z"/></svg>
-            <p> Brue lyle</p>
-             
-             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-             <p>Dec 24, 2016</p>
-             </div>
-           <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read more</button>
-         </div>
-         
-       </div>
+      <h2 class="text-7xl pl-2  font-Geologica tracking-tight text-black pb-6 max-sm:text-center">
+        Blog</h2>
+      <div class="-my-8 divide-y-0 px-5">
+        <div class="py-8 flex flex-wrap justify-center md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
+            <div
+              class="mb-0 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-4 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                class="h-10 w-10" viewBox="0 0 24 24">
+                <path
+                  d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="md:flex-grow ">
+            <h2 class="text-2xl font-medium  mb-2">Believe in you print skills but never stop improving </h2>
+            <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up
+              snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha
+              lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+            <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path
+                  d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z" />
+                </svg>
+              <p> Brue lyle</p>
+
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z" />
+                </svg>
+              <p>Dec 24, 2016</p>
+            </div>
+            <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read
+              more</button>
+          </div>
+
+        </div>
         <div class="py-8 flex flex-wrap  justify-center md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
-              <div class="mb-1 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z"></path></svg>
-                </div>
-              </div>
-              <div class="md:flex-grow">
-                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores.</h2>
-                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-             <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">  
-           <svg width="24" height="24"  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z"/></svg>
-            <p> Brue lyle</p>
-             
-             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-             <p>Dec 24, 2016</p>
-             </div>
-           <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read more</button>   
-              </div>
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
+            <div
+              class="mb-1 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-4 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                class="h-10 w-10" viewBox="0 0 24 24">
+                <path
+                  d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z">
+                </path>
+              </svg>
             </div>
-     </div>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Dolores.</h2>
+            <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up
+              snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha
+              lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+            <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path
+                  d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z" />
+                </svg>
+              <p> Brue lyle</p>
+
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z" />
+                </svg>
+              <p>Dec 24, 2016</p>
+            </div>
+            <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read
+              more</button>
+          </div>
+        </div>
+      </div>
       <div class="py-8 flex flex-wrap px-5 justify-center md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
-                <div class="mb-1 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-2 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="h-10 w-10" viewBox="0 0 24 24"><path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z"></path></svg>
-                </div>
-              </div>
-              <div class="md:flex-grow">
-                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">  
-           <svg width="24" height="24"  xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z"/></svg>
+        <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pr-5">
+          <div
+            class="mb-1 inline-flex h-60 w-56 flex-shrink-0 items-center justify-center border-4 border-solid border-purple-500 bg-indigo-100 text-indigo-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+              class="h-10 w-10" viewBox="0 0 24 24">
+              <path
+                d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z">
+              </path>
+            </svg>
+          </div>
+        </div>
+        <div class="md:flex-grow">
+          <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia
+          </h2>
+          <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up
+            snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha
+            lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+          <div class="text-indigo-900 inline-flex items-center mt-4 gap-4">
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path
+                d="M24 24h-24v-24h24v24zm-2-22h-20v20h20v-20zm-4.118 14.064c-2.293-.529-4.427-.993-3.394-2.945 3.146-5.942.834-9.119-2.488-9.119-3.388 0-5.643 3.299-2.488 9.119 1.064 1.963-1.15 2.427-3.394 2.945-2.048.473-2.124 1.49-2.118 3.269l.004.667h15.993l.003-.646c.007-1.792-.062-2.815-2.118-3.29z" />
+              </svg>
             <p> Brue lyle</p>
-             
-             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-             <p>Dec 24, 2016</p>
-             </div>
-           <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read more</button>
-              </div>
-            </div>
+
+            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+              <path
+                d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z" />
+              </svg>
+            <p>Dec 24, 2016</p>
+          </div>
+          <button class=" mt-4  flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Read
+            more</button>
+        </div>
+      </div>
     </div>
-    </section>
-    
+  </section>
+
   <!-- blog ends -->
   <!-- get in touch start  -->
-  <section class="grid-flow-row-2 grid h-48 place-content-center pt-20 gap-3 pb-8">
+  <section class="grid-flow-row-2 grid h-48 place-content-center pt-24 gap-3 pb-8">
     <div class="flex flex-col text-center w-full mb-20">
-      <h2 class="text-5xl font-medium font-Geologica  tracking-tight text-gray-900 pb-6">Call to action</h2>
-          <p class="lg:w-2/4 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
-        </div>
+      <h2 class="text-7xl  font-Geologica  tracking-tight text-gray-900 pb-6">Call to action</h2>
+      <p class="lg:w-2/4 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+        asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+    </div>
     <div class="flex flex-row place-content-center space-x-6">
-      <div class="text-center font-bold text-4xl">$25</div>
-      <button class="mx-auto flex rounded bg-indigo-900 px-8 py-4 text-lg text-white focus:outline-none">Get Started</button>
+      <div class="text-center font-semibold pt-3 text-4xl">$25</div>
+      <button class="mx-auto flex rounded bg-black px-8 py-4 text-lg text-white focus:outline-none">Get
+        Started</button>
     </div>
   </section>
   <!-- get in touch out  -->
   <!-- Contact -->
   <section class="body-font relative pt-20 ">
-    <div class="container mx-auto px-5 py-24">
+    <div class="container mx-auto px-5 py-44">
       <div class="mb-12 flex w-full flex-col text-center">
-        <h2 class="title-font mb-4 text-5xl font-Geologica  font-medium text-black ">Get In Touch</h2>
-        <p class="mx-auto text-center pl-24 pr-24 text-base leading-relaxed  md:w-2/4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim odit alias beatae distinctio, totam officia unde atque fugiat ipsa doloribus iste, non accusamus!</p>
+        <h2 class=" mb-4 text-7xl font-Geologica  font-medium text-black ">Get In Touch</h2>
+        <p class="mx-auto text-center pl-24 pr-24 text-lg leading-relaxed  md:w-2/4">Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Enim odit alias beatae distinctio, totam officia unde atque fugiat ipsa
+          doloribus iste, non accusamus!</p>
       </div>
       <div class="mx-auto md:w-2/3 lg:w-2/5">
         <div class="-m-2 flex flex-wrap">
           <div class="w-full p-2">
             <div class="relative">
-              <input type="text" id="name" name="name" class="w-full rounded border border-purple-700 bg-white bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200" placeholder="Name" />
+              <input type="text" id="name" name="name"
+                class="w-full rounded border border-black bg-white bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"
+                placeholder="Name" />
             </div>
           </div>
           <div class="w-full p-2">
             <div class="relative">
-              <input type="email" id="email" name="email" placeholder="Email" class="w-full rounded border border-purple-700 bg-white bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200" />
+              <input type="email" id="email" name="email" placeholder="Email"
+                class="w-full rounded border border-black bg-white bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200" />
             </div>
           </div>
           <div class="w-full p-2">
             <div class="relative">
-              <textarea placeholder="Message" id="message" name="message" class="h-32 w-full resize-none rounded border border-purple-700 bg-white bg-opacity-50 px-3 py-1 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"></textarea>
+              <textarea placeholder="Message" id="message" name="message"
+                class="h-32 w-full resize-none rounded border border-black bg-white bg-opacity-50 px-3 py-1 text-base leading-6 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200"></textarea>
             </div>
           </div>
           <div class="w-full p-1">
-            <button class="mx-auto flex rounded border-0 bg-purple-900 px-8 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none">Send</button>
+            <button
+              class="mx-auto flex rounded border-0 bg-black px-8 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none">Send</button>
           </div>
           <div class="mt-8 w-full  p-2 pt-5 text-center">
-            <a class="text-3xl font-bold font-Pacifico text-purple-900">Paper</a>
-  
-            <footer class="flex flex-col justify-center gap-14 pt-9 text-center md:flex-row text-purple-500">
+            <a class="text-3xl font-bold font-Pacifico text-black">Paper</a>
+
+            <!-- <footer class="flex flex-col justify-center gap-14 pt-9 text-center md:flex-row text-purple-500">
               <a href="#">About</a>
               <a href="#">Features</a>
               <a class="md:pl-56" href="#">How it work</a>
               <a href="#">Contacts</a>
+            </footer> -->
+            <footer class="text-center pt-20 flex justify-between space-x-6">
+              <div class="container mx-auto pt-10">
+                <div class="grid md:grid-cols-2 lg:grid-cols-4">
+                  <div class="mb-6">
+                    <h5 class="mb-2 font-bold text-black">About</h5>
+                  </div>
+            
+                  <div class="mb-6 pr-9">
+                    <h5 class="mb-2 font-bold text-black">Features</h5>
+                  </div>
+            
+                  <div class="mb-6 pl-7">
+                    <h5 class="mb-2 font-bold text-black">How it works</h5>
+                  </div>
+            
+                  <div class="mb-6">
+                    <h5 class="mb-2 font-bold text-black">Contacts</h5>
+                  </div>
+                </div>
+              </div>
             </footer>
             
-  
+            
+
             <div class="">
               <h3 class="mt-10 text-xs font-normal">© 2023</h3>
             </div>
@@ -436,6 +630,7 @@
       </div>
     </div>
   </section>
-  
-  </body>
+
+</body>
+
 </html>
